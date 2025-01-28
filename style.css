@@ -43,3 +43,22 @@
     height: 100%;
     width: 100%;
 }
+.my p{
+    text-align: justify;
+}
+.what:hover{
+    
+}
+.mrs{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mob{
+    position: relative;
+}
+.card-body a{
+    
+  background: darkcyan;
+  transition: width 2s;
+}
