@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
 .logo{
     height: 100px;
@@ -17,10 +18,11 @@
 .pic img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .me{
-    height: 350px;
-    width: 400px;
+    width: 100%;
+    height: 415px;
     
 }
 .me img{
@@ -28,16 +30,18 @@
     width: 100%;
 }
 .what{
-    width: 400px;
+    width: 100%;
     height: 250px;
+    
 }
 .what img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .cardimg{
-    width: 410px;
-    height: 255px;
+    width: 350px;
+    height: 265px;
 }
 .cardimg img{
     height: 100%;
@@ -49,34 +53,30 @@
 .what:hover{
     
 }
-.mrs{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.mob{
-    position: relative;
-}
+
+
 .card-body a{
     
   background: darkcyan;
   transition: all 2s;
 }
 .what::before{
-    content: "gallery";
+    content: "Gallery";
     position: absolute;
     text-align: center;
     align-content: center;
     font-weight: 700;
     font-size: larger;
+    margin-left: calc(var(--bs-gutter-x)* .5);
     color: #fff;
-    width: 400px ;
+    width: 100% ;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.5);
     top: 250px;
     /* bottom: -250px; */
-    /* right:28px ; */
+    /* right:28px; */
     /* right: 0; */
+    left: 0;
     transition: all 1s;
     
 }
@@ -85,5 +85,10 @@
     /* overflow: hidden; */
     top: 0;
     /* bottom: 0; */
-    right: 28px;
+    /* right: 28px; */
+    left: 0;
+}
+.mr iframe{ 
+    height: 300px;
+    width: 100%;
 }
